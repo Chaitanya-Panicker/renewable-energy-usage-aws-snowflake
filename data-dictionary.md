@@ -50,7 +50,7 @@
 
 ---
 
-- **MONTHLY_USAGE**  
+**MONTHLY_USAGE**  
   The amount of energy or resources consumed by a household in one month.
 
 ---
