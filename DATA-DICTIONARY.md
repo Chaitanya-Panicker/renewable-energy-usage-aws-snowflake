@@ -1,5 +1,9 @@
 ## Key Data Fields & Business Terms
 
+This file contains the data fields used along with their business definitions. It explains the meaning, purpose, and context of each field to have a clear understanding before analysis.
+
+---
+
 **ADOPTION_YEAR**  
   The year when a household or individual started using a particular technology or service.
 
