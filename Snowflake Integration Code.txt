@@ -1,0 +1,55 @@
+CREATE STORAGE INTEGRATION powerbi_s3
+  TYPE = EXTERNAL_STAGE
+  STORAGE_PROVIDER = 'S3'
+  STORAGE_AWS_ROLE_ARN = 'arn:aws:iam::518503251154:role/powerbirole'
+  ENABLED = TRUE
+  STORAGE_ALLOWED_LOCATIONS = ('s3://powerbiproject01/Renewable_Energy_Usage.csv');
+
+  desc integration powerbi_s3
+
+  CREATE database powerbi;
+
+  create schema powerbi_Data;
+
+  create table powerbi_dataset (
+Household_ID	string,Region	string,Country	string,Energy_Source	string,
+Monthly_Usage_kWh	float,Year	int,Household_Size	int,Income_Level	string,
+Urban_Rural	string,Adoption_Year	int,Subsidy_Received	string,Cost_Savings_USD float
+);
+
+select * from powerbi_dataset;
+
+create stage powerbi.powerbi_Data.powerbi_stage
+url = 's3://powerbiproject01/Renewable_Energy_Usage.csv'
+storage_integration = powerbi_s3
+
+copy into powerbi_dataset 
+from @powerbi_stage
+file_format = (type=csv field_delimiter=',' skip_header=1 )
+on_error = 'continue'
+
+select * from powerbi_dataset;
+
+create table powerbi_dataset_copy as
+select * from powerbi_dataset;
+
+select * from powerbi_dataset_copy;
+
+select * from powerbi_dataset_copy;
+
+select distinct REGION
+from powerbi_dataset;
+
+create table powerbi_dataset as
+select * from powerbi_dataset;
+
+select * from powerbi_dataset;
+
+select distinct ENERGY_SOURCE
+from powerbi_dataset;
+
+select * from powerbi_dataset;
+
+update powerbi_dataset
+set MONTHLY_USAGE_KWH = MONTHLY_USAGE_KWH*1.1
+where INCOME_LEVEL = 'Low';
