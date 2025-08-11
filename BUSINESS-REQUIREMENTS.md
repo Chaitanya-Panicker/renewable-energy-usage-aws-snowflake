@@ -24,7 +24,8 @@
 
 ---
 
-Visual Questions
+## Visual Questions
+
 ### Q5. Which regions have the highest renewable energy consumption?
 - **Purpose:** Identify high-potential markets and optimize resource allocation
 - **Visual:** Horizontal bar chart - "Avg Monthly Usage (kWh) by REGION"
@@ -55,7 +56,8 @@ Visual Questions
 
 ---
 
-Slicer Questions
+## Slicer Questions
+
 ### Q10. How can users filter data by specific countries?
 - **Purpose:** Enable geographic market analysis and regional performance comparison
 - **Visual:** Dropdown slicer - "COUNTRY" filter with country selection options
@@ -65,7 +67,6 @@ Slicer Questions
 ### Q11. How can stakeholders analyze different income segments?
 - **Purpose:** Facilitate demographic targeting and socioeconomic impact assessment
 - **Visual:** Dropdown slicer - "INCOME_LEVEL" filter (Low, Middle, High options)
-
 ---
 
 ### Q12. How can users distinguish between urban and rural adoption patterns?
