@@ -2,25 +2,25 @@
 
 ### Q1. What is the current scale of renewable energy adoption?
 - **Purpose:** Measure market penetration and establish baseline for growth tracking
-- **Visual:** KPI Card showing "Total Household Adoption: 15"
+- **Visual:** KPI Card showing "Total Household Adoption"
 
 ---
 
 ### Q2. What is the typical energy consumption among renewable energy users?
 - **Purpose:** Understand usage patterns for capacity planning and infrastructure investment
-- **Visual:** KPI Card displaying "Avg Monthly Usage: 912.38 kWh"
+- **Visual:** KPI Card displaying "Avg Monthly Usage"
 
 ---
 
 ### Q3. What financial benefits are households experiencing?
 - **Purpose:** Quantify ROI and create compelling value propositions for new customers
-- **Visual:** KPI Card showing "Avg Cost Saving: $257.03"
+- **Visual:** KPI Card showing "Avg Cost Saving"
 
 ---
 
 ### Q4. How effective are government incentive programs?
 - **Purpose:** Assess policy impact and identify partnership opportunities
-- **Visual:** KPI Card displaying "Subsidy Received Household %: 40"
+- **Visual:** KPI Card displaying "Subsidy Received Household %"
 
 ---
 
