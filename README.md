@@ -1,10 +1,10 @@
 # 🌱⚡ Renewable Energy Adoption Analysis
 
+<img width="1336" height="774" alt="Screenshot 1" src="https://github.com/user-attachments/assets/ffeee36d-618a-4153-8a73-493791e534a7" />
+
 ## 📖 Project Overview  
 The world is shifting toward cleaner, renewable energy sources — but adoption patterns vary across regions, income levels, and household types.  
 This project tells the story of **how raw renewable energy usage data travels** — from **AWS S3 storage**, through **Snowflake integration**, into **Power BI dashboards** — revealing patterns in adoption, subsidies, and cost savings.  
-
-We set out to answer: *Who is adopting renewable energy, where, and why?*  
 
 ---
 
@@ -54,11 +54,11 @@ We set out to answer: *Who is adopting renewable energy, where, and why?*
 ---
 
 ## 📬 Contact  
-👤 **Your Name**  
-📧 your.email@example.com  
-🌐 [Your Portfolio Link]  
+👤 **Chaitanya Panicker**  
+📧 chaitanya.panicker98@gmail.com  
+🌐 https://www.linkedin.com/in/chaitanyapanicker  
 
 ---
 
 ## 📜 License  
-This project is licensed under the **MIT License** — free to use, modify, and share with attribution.  
+This project is licensed under the **MIT License** — free to use, modify, and share with attribution. 
